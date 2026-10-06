@@ -5,7 +5,9 @@ Java compiles to bytecode; the JVM runs it and JIT-compiles hot code.
 
 ## Key ideas (in my own words)
 The three commands
-
+javac -d out src/main/java/day1/Day1.java
+java -cp out day1.Day1
+javap -c -cp out day1.Day1
 1. javac compiles source code into bytecode
 
 javac -d out src/main/java/day1/Day1.java
